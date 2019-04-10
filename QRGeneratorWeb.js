@@ -108,3 +108,8 @@ QRCode.toFile('./QR-Output/test.png', final, /*{
     console.log('done')
   }
 )
+
+//Web Components
+let proxySelection = document.getElementById("proxySelection")
+
+document.getElementById("proxyType").innerHTML(payload.proxyTypeCode(proxySelection))
