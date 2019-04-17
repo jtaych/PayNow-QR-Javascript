@@ -1,6 +1,7 @@
 var QRCode = require('qrcode');
 const CRC = require('crc-full').CRC;
 var crc = CRC.default("CRC16_CCITT_FALSE");
+var inquirer = require('inquirer');
 
 //Generic Payload (Non-Merchant)
 

@@ -1,3 +1,18 @@
+//=========> Web Components
+let proxySelection = document.getElementById("proxySelection")
+
+//document.getElementById("proxyType").innerHTML(payload.proxyTypeCode(proxySelection))
+document.getElementById("proxySelection").addEventListener("click", function(){
+    console.log("click")
+    document.getElementById("proxyType").innerHTML = "Hello There"
+},false)
+
+document.getElementById("proxyType").addEventListener("click", function(){
+    console.log("clickclick")
+},false)
+
+// =======> Backend Components
+
 var QRCode = require('qrcode');
 const CRC = require('crc-full').CRC;
 var crc = CRC.default("CRC16_CCITT_FALSE");
@@ -109,7 +124,4 @@ QRCode.toFile('./QR-Output/test.png', final, /*{
   }
 )
 
-//Web Components
-let proxySelection = document.getElementById("proxySelection")
 
-document.getElementById("proxyType").innerHTML(payload.proxyTypeCode(proxySelection))
