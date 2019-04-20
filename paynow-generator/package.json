@@ -1,0 +1,51 @@
+{
+  "_from": "paynow-generator",
+  "_id": "paynow-generator@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-Tb3go0gpjdXvxcS5VqP/unDs+7HqTHIaGd43VeQnnzMAZmsnPdGM2JyeRZ2H54VB3UhrUm4B9KJlCMg0iZEfhQ==",
+  "_location": "/paynow-generator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "paynow-generator",
+    "name": "paynow-generator",
+    "escapedName": "paynow-generator",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/paynow-generator/-/paynow-generator-1.0.5.tgz",
+  "_shasum": "40ac959b6bc02f8bf9cde4c722a48d102db6f4af",
+  "_spec": "paynow-generator",
+  "_where": "C:\\Users\\joelt\\OneDrive\\Coding\\QR Generator\\publishing module",
+  "author": {
+    "name": "Joel Tay"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "crc-full": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "Creates a string which can be encoded into a PayNow Compatible QR Code",
+  "keywords": [
+    "paynow",
+    "Singapore",
+    "payments"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "paynow-generator",
+  "repository": {
+    "type": "git",
+    "url": "github.com/typeyourname/PayNow-QR-Javascript"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.5"
+}
