@@ -42,10 +42,10 @@
   "name": "paynow-generator",
   "repository": {
     "type": "git",
-    "url": "github.com/typeyourname/PayNow-QR-Javascript"
+    "url": "https://github.com/typeyourname/PayNow-QR-Javascript.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
