@@ -12,7 +12,7 @@ PayNow QR codes can be scanned using the banking application of any participatin
 
 If you're just looking for a simple function to generate your code, without having to mess around with the QRGenerator file, I've exposed the functionality as a package over at https://www.npmjs.com/package/paynow-generator and you can find more information about how to use it there.
 
-Do note that some of the fields are hardcoded for Singapore, but I hardly see that as an issue in the short term.
+Do note that some of the fields are hardcoded for Singapore, but I hardly see that as an issue in the short term. I've also hardcoded certain fields such as expiry date just for this initial run, and I'll get around to fixing that later.
 
 The PayNow QR encoding format is governed by standards laid out by EMVCo - and you can find that documentation here as well.
 
